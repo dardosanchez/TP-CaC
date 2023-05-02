@@ -14,13 +14,13 @@
 .card-group{
     max-width: 1200px;
     margin: 0 auto;
-    
+    margin-right: 80px;
 }
 
 .card {
     margin: 0 auto;   
-    width: 18rem;
-    margin-right: 15px;
+    width: 22rem;
+    
 }
 
 #formulario{
@@ -85,3 +85,20 @@
 #react{
     background-color: rgb(23, 162, 185);
 }
+
+
+#textoImg{
+    --bs-gutter-x: 1.5;
+}
+
+
+#Afoto{
+    --bs-gutter-x: 0;
+    color: white;
+}
+
+
+.my-image {
+    width: 100%;
+  }
+
