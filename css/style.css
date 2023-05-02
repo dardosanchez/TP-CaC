@@ -1,60 +1,63 @@
-
-
 .navbar-nav .nav-link {
-    color:rgb(155,157,156);
+    color: rgb(155, 157, 156);
     padding-right: 50%;
     padding-left: 90%;
 }
 
 
-#ticket{
-    color:rgb(42,166,68);
+#ticket {
+    color: rgb(42, 166, 68);
 }
 
-.card-group{
+.card-group {
     max-width: 1200px;
     margin: 0 auto;
     margin-right: 80px;
 }
 
 .card {
-    margin: 0 auto;   
+    margin: 0 auto;
     width: 22rem;
-    
+
 }
 
-#formulario{
-    max-width: 800px; /* ancho máximo para el contenedor */
-    margin: 0 auto; /* Centramos el contenedor horizontalmente */
+#formulario {
+    max-width: 800px;
+    /* ancho máximo para el contenedor */
+    margin: 0 auto;
+    /* Centramos el contenedor horizontalmente */
     margin-bottom: 0%;
 }
 
-#btnEnviar{
+#btnEnviar {
     background-color: rgb(150, 201, 62);
     width: 98%;
-    color:white;
+    color: white;
     margin: 0 auto;
     margin-top: 2%;
 }
 
-.subrayado-puntos{
+#btnEnviar:hover {
+    background-color: rgb(137, 184, 57);
+}
+
+.subrayado-puntos {
     text-decoration: underline dotted;
 }
 
-#footer{
+#footer {
     color: white;
     height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
-    
+
 }
 
-#pos
-{
+#pos {
     background-color: rgb(53, 58, 64);
     color: white;
-    font-size:x-large;
+    font-size: x-large;
     display: flex;
     align-items: center;
 }
@@ -62,32 +65,37 @@
 
 
 #selec:hover {
-    color:white;
+    color: white;
 }
 
 #selec2 {
     color: rgb(40, 161, 66);
 }
+
 #selec2:hover {
-    color:white;
+    color: white;
 }
 
 
-.oscurecer-img{
-    filter:brightness(50%);
+.oscurecer-img {
+    filter: brightness(50%);
 }
 
-#btnComprar{
+#btnComprar {
     background-color: rgb(39, 168, 68);
     color: white;
 }
 
-#react{
+#btnComprar:hover {
+    background-color: rgb(34, 148, 60);
+}
+
+#react {
     background-color: rgb(23, 162, 185);
 }
 
 
-#Afoto{
+#Afoto {
     --bs-gutter-x: 0;
     color: white;
 }
@@ -95,5 +103,17 @@
 
 .my-image {
     width: 100%;
-  }
+}
 
+#acFot {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#acFot:hover {
+    background-color: rgb(24, 56, 77);
+}
