@@ -117,8 +117,17 @@
 }
 
 #txtCarrusel{
-    text-align: center;
+    
+    text-align: right;
     align-items: end;
     display: flex;
-    
+    width: 600px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+}
+
+#contenedor{
+    overflow: hidden;
+    position: relative;
 }
