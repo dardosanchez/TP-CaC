@@ -116,18 +116,22 @@
     background-color: rgb(28, 66, 89);
 }
 
-#txtCarrusel{
-    
+#txtCarrusel {
     text-align: right;
     align-items: end;
     display: flex;
-    width: 600px;
+    width: 500px;
     position: absolute;
-    top:50%;
-    left: 50%;
+    top: 30%;
+    left: 55%;
 }
 
-#contenedor{
+#contenedor {
     overflow: hidden;
     position: relative;
+}
+
+
+.carousel-inner {
+    height: 630px;
 }
