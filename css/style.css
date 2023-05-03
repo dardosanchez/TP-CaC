@@ -5,9 +5,7 @@
 }
 
 
-#ticket {
-    color: rgb(42, 166, 68);
-}
+
 
 .card-group {
     max-width: 1200px;
@@ -38,7 +36,7 @@
 }
 
 #btnEnviar:hover {
-    background-color: rgb(137, 184, 57);
+    background-color: rgb(128, 171, 53);
 }
 
 .subrayado-puntos {
@@ -47,7 +45,7 @@
 
 #footer {
     color: white;
-    height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -69,11 +67,11 @@
 }
 
 #selec2 {
-    color: rgb(40, 161, 66);
+    color: rgb(42, 163, 69);
 }
 
 #selec2:hover {
-    color: white;
+    color:rgb(31, 135, 55);
 }
 
 
@@ -87,7 +85,7 @@
 }
 
 #btnComprar:hover {
-    background-color: rgb(34, 148, 60);
+    background-color: rgb(31, 135, 55);
 }
 
 #react {
@@ -115,5 +113,12 @@
 }
 
 #acFot:hover {
-    background-color: rgb(24, 56, 77);
+    background-color: rgb(28, 66, 89);
+}
+
+#txtCarrusel{
+    text-align: center;
+    align-items: end;
+    display: flex;
+    
 }
