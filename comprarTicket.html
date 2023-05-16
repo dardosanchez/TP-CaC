@@ -88,57 +88,60 @@
 
 
         <!--FORM-->
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-            </div>
-
-            <div class="mb-3 mt-3">
-                <input type="text" class="form-control" id="mail" placeholder="Email">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <label for="formGroupExampleInput" class="form-label">Cantidad</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Cantidad">
-            </div>
-            <div class="col">
-                <label for="formGroupExampleInput" class="form-label">Categoría</label>
-                <select id="seleccion" class="form-select" aria-label="Default select example">
-                    <option selected>-- Seleccione -- </option>
-                    <option value="sinCategoria">Sin Categoria</option>
-                    <option value="estudiante">Estudiante</option>
-                    <option value="treinee">Treinee</option>
-                    <option value="junior">Junior</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="alert alert-primary mt-4" role="alert">
-            <div class="row m-lg-1">
-                <div id="mensajeTotal" class="col-2 m-auto p-0 w-auto">
-                    <p class="m-auto ">Total a Pagar: $</p>
+        
+            <div class="row">
+                <div class="col">
+                    <input id="nombre" type="text" class="form-control" placeholder="Nombre" aria-label="First name">
                 </div>
-                <div class="col m-auto p-0">
-                    <p id="precioTotal" class="m-auto "></p>
+                <div class="col">
+                    <input id="apellido" type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+    
+                <div id="email" class="mb-3 mt-3">
+                    <input type="text" class="form-control" id="mail" placeholder="Email">
                 </div>
             </div>
-        </div>
-
-        <div class="row m-auto">
-            <div class="col">
-                <button id="btnEnviar" type="submit" class="btn btn-lg w-100">Borrar</button>
+    
+            <div class="row">
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Cantidad</label>
+                    <input id="cantidadEntrada" type="number" class="form-control" id="formGroupExampleInput" placeholder="Cantidad">
+                </div>
+                <div class="col">
+                    <label for="formGroupExampleInput" class="form-label">Categoría</label>
+                    <select id="seleccion" class="form-select" aria-label="Default select example">
+                        <option selected>-- Seleccione -- </option>
+                        <option value="sinCategoria">Sin Categoria</option>
+                        <option value="estudiante">Estudiante</option>
+                        <option value="treinee">Treinee</option>
+                        <option value="junior">Junior</option>
+                    </select>
+                </div>
             </div>
-            <div class="col">
-                <button id="btnEnviar" type="submit" class="btn btn-lg w-100 " onclick="calcularPrecio();">Resumen</button>
+    
+            <div class="alert alert-primary mt-4" role="alert">
+                <div class="row m-lg-1">
+                    <div id="mensajeTotal" class="col-2 m-auto p-0 w-auto">
+                        <p class="m-auto ">Total a Pagar: $</p>
+                    </div>
+                    <div class="col m-auto p-0">
+                        <p id="precioTotal" class="m-auto "></p>
+                    </div>
+                </div>
             </div>
+    
+            <div class="row m-auto">
+                <div class="col m-auto">
+                    <button id="btnEnviar" type="submit" class="btn btn-lg w-100" onclick="limpiarForm();">Borrar</button>
+                </div>
+                <div class="col m-auto">
+                    <button id="btnEnviar" type="submit" class="btn btn-lg w-100 " onclick="calcularPrecio();">Resumen</button>
+                </div>
+            </div>
+    
         </div>
-
-    </div>
+       
+        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
@@ -154,7 +157,7 @@
 
             <div id="acFot" class="col " href="# ">Preguntas <br>Frecuentes</div>
 
-            <div id="acFot" class="col ">Contáctanos</div>
+            <div id="acFot" class="col ">Contáctanos</div>  
 
             <div id="acFot" class="col ">Prensa</div>
 
