@@ -60,7 +60,6 @@ const validarCampo = (expresion,input,campo ) => {
 }
 
 inputs.forEach((input) => {
-	input.addEventListener("keyup", validarformulario);
     input.addEventListener("blur", validarformulario);
 	document.getElementById("seleccion").addEventListener("change", validarformulario);
 });
