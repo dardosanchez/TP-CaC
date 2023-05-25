@@ -1,4 +1,6 @@
-
+body{
+    width: 100%;
+}
 .navbar-nav .nav-link {
     color: rgb(155, 157, 156);
     padding-right: 50%;
@@ -162,3 +164,11 @@
     width: 12.5%;
 }
 
+
+#btnBorrar {
+    background-color: rgb(150, 201, 62);
+    width: 98%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 2%;
+}
