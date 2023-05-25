@@ -162,6 +162,7 @@ body{
 
 #nextCarrusel{
     width: 12.5%;
+    position: absolute;
 }
 
 
