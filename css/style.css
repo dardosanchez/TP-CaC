@@ -43,14 +43,7 @@ body{
     text-decoration: underline dotted;
 }
 
-#footer {
-    color: white;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
 
-}
 
 #pos {
     background-color: rgb(53, 58, 64);
@@ -103,7 +96,16 @@ body{
     width: 100%;
 }
 
+#footer {
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
 #acFot {
+    background-color: rgba(30, 70, 95);
     height: 100%;
     text-align: center;
     display: flex;
