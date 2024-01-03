@@ -2,7 +2,7 @@
 
 ## Descripción
 
-El proyecto consiste en replicar la página principal proporcionada en la consigna del trabajo práctico utilizando las herramientas aprendidas en el curso hasta el momento.
+El proyecto consiste en replicar la página principal proporcionada en la consigna del trabajo práctico utilizando las herramientas aprendidas en el curso de CodoACodo hasta el momento.
 
 ## Contenido
 
